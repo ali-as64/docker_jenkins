@@ -2,7 +2,7 @@
 
 import requests
  
-x = request.get('https://www.google.com')
+x = requests.get('https://www.google.com')
 
 if x.status_code == 200:
     print('yah!')
