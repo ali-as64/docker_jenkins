@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "linux"}
+    agent {label "Windows_Node2"}
     stages{
         stage("build") {
             steps {
